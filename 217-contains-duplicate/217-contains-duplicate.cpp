@@ -2,7 +2,7 @@ class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
         set<int> distinct;
-        for (auto i:nums){
+        for (auto &i:nums){
             distinct.insert(i);
         }
         
