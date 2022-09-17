@@ -9,7 +9,6 @@ public:
             int new_idx=(i+k)%size;
             new_arr[new_idx]=nums[i];
         }
-        
         nums=new_arr;
     }
 };
