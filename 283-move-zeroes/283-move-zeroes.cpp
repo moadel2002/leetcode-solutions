@@ -1,6 +1,7 @@
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
+        
         set<int> positions;
         for (int i=0;i<nums.size();i++){
             if (nums[i]!=0)
